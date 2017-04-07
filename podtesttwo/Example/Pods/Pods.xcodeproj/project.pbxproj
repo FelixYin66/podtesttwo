@@ -16,6 +16,8 @@
 		83BA6951D273ED6C66C2203890F93DBE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3891C291CC83A4193DEFEFA929DC5 /* ReplaceMe.m */; };
 		86320D951E97731E00B4F6AF /* PictureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86320D931E97731E00B4F6AF /* PictureView.h */; };
 		86320D961E97731E00B4F6AF /* PictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86320D941E97731E00B4F6AF /* PictureView.m */; };
+		86320D991E977B1A00B4F6AF /* HellowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86320D971E977B1A00B4F6AF /* HellowView.h */; };
+		86320D9A1E977B1A00B4F6AF /* HellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86320D981E977B1A00B4F6AF /* HellowView.m */; };
 		8BF569D534784CE82098EFDAD8E5EBDF /* podtesttwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E9AD3A36069B661DC60F5B552B218 /* podtesttwo-dummy.m */; };
 		D6D794D37E1E13A47E96DD96059A450F /* podtesttwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5F6F9551BA1A43757AD74A2DC2082 /* podtesttwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED97D7314BCD4679D4D17EB5A856F8F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -48,6 +50,8 @@
 		6C21DFBFA68E251EBA16E25A87A1F9DB /* podtesttwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = podtesttwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86320D931E97731E00B4F6AF /* PictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureView.h; sourceTree = "<group>"; };
 		86320D941E97731E00B4F6AF /* PictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureView.m; sourceTree = "<group>"; };
+		86320D971E977B1A00B4F6AF /* HellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellowView.h; sourceTree = "<group>"; };
+		86320D981E977B1A00B4F6AF /* HellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellowView.m; sourceTree = "<group>"; };
 		8B8038C4831BE5670C03EB6638677A7A /* Pods-podtesttwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podtesttwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99BFAAC296C94AAB034E40C0F3F4D52D /* Pods-podtesttwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-podtesttwo_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -224,6 +228,8 @@
 				49A3891C291CC83A4193DEFEFA929DC5 /* ReplaceMe.m */,
 				86320D931E97731E00B4F6AF /* PictureView.h */,
 				86320D941E97731E00B4F6AF /* PictureView.m */,
+				86320D971E977B1A00B4F6AF /* HellowView.h */,
+				86320D981E977B1A00B4F6AF /* HellowView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86320D991E977B1A00B4F6AF /* HellowView.h in Headers */,
 				86320D951E97731E00B4F6AF /* PictureView.h in Headers */,
 				3663330010FEDD67E1FF25F000D7D281 /* Pods-podtesttwo_Example-umbrella.h in Headers */,
 			);
@@ -345,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71ACCD49205D1D50152D827762C03F2C /* Pods-podtesttwo_Example-dummy.m in Sources */,
+				86320D9A1E977B1A00B4F6AF /* HellowView.m in Sources */,
 				86320D961E97731E00B4F6AF /* PictureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
